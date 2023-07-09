@@ -1,6 +1,7 @@
 #include <iostream>
+#include "this.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  foo_main();
+  return 0;
 }

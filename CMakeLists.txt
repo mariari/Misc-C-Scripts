@@ -3,4 +3,4 @@ project(misc_c_scripts)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(misc_c_scripts main.cpp)
+add_executable(misc_c_scripts main.cpp this.cpp this.h)
