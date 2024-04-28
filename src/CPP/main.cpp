@@ -2,6 +2,6 @@
 #include "this.h"
 
 int main() {
-  foo_main();
-  return 0;
+    foo_main();
+    return 0;
 }
