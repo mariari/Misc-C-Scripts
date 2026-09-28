@@ -103,3 +103,6 @@ type AlMcpClient(url: string) =
 
             return { Bindings = bindings }
         }
+
+    member _.DebugGrab(source: string, branch: string) =
+        callTool "queryAL" (box {| source = source; branch = Option.ofObj branch |})
